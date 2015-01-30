@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#828282</color>
+    
+    <color name="light_blue">#BEFFE8</color>
+    <color name="dark_brown">#544C32</color>
+    <color name="brown">#766B46</color>
+    <color name="light_brown">#D3BE7E</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="hint_text">#B2B2B2</color>
+    <color name="tab_highlight">#ff9ecfbf</color>
+</resources>

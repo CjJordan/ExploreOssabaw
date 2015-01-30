@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:descendantFocusability="beforeDescendants"
+  	android:focusableInTouchMode="true" >
+    
+     <ImageView
+         android:id="@+id/entryImage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:contentDescription="@string/empty"
+         android:padding="20dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:scaleType="center" />
+      
+     <TextView
+         android:id="@+id/titleText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/entryImage"
+         android:layout_centerHorizontal="true"
+         android:padding="5dp"
+         android:textSize="24sp"
+         android:textStyle="bold" />
+     
+     <TextView
+          android:id="@+id/blurbText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/titleText"
+          android:textSize="20sp"
+          android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/entryText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blurbText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/dark_brown"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/journal_entry_hint"
+        android:inputType="textCapSentences|textAutoCorrect|textMultiLine"
+        android:lines="5"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint_text"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/infoHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entryText"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/take_picture_hint"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+      <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@+id/entryText" >
+        <LinearLayout
+            android:id="@+id/mygallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            />
+    </HorizontalScrollView>
+
+</RelativeLayout>
+
+</ScrollView>

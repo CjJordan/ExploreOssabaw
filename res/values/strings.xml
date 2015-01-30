@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Explore Ossabaw</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Map</string>
+    <string name="title_section2">Journal</string>
+    <string name="title_activity_map_fragment">MapFragment</string>
+    <string name="title_activity_journal_fragment">JournalFragment</string>
+    <string name="map_desc">Map of Ossabaw Island</string>
+    <string name="title_activity_main_road">MainRoadActivity</string>
+    <string name="main_road_desc">The main road was carved into the island’s interior in the 1760’s. It is considered to be one of the oldest continuously used roads in America.</string>
+    <string name="main_road_title">Main Road</string>
+    <string name="action_pic">Take a Picture</string>
+    
+    <string name="journal_entry_hint">Write a little something about what you saw here&#8230;</string>
+    <string name="take_picture_hint">Tap the camera icon at the top of the app to take some pictures!</string>
+    
+    <string name="middle_place_desc">Middle Place is the home of sites like the Tower House which was built by Genesis Project members in 1980 of downed lumber from the island.</string>
+    <string name="middle_place_title">Middle Place</string>
+    <string name="alligators_desc">The American alligator, the island’s top predator, can be found throughout the island all year long but are more active during the warmer months.</string>
+    <string name="alligators_title">Alligators</string>
+    <string name="rookery_desc">The Pine Barren Rookery&#8230;</string>
+    <string name="rookery_title">Rookery</string>
+    <string name="south_beach_desc">At high tide the South End Beach is completely submerged by the sea.</string>
+    <string name="south_beach_title">South Beach</string>
+    <string name="middle_beach_desc">Once growing behind the dunes, these palms are testimony to the dynamic nature of Bradley Beach.</string>
+    <string name="middle_beach_title">Middle Beach</string>
+    <string name="club_house_desc">The restored Clubhouse is considered to be one of the oldest and best surviving examples of pre-fabricated architecture on the Georgia coast.</string>
+    <string name="club_house_title">Club House</string>
+    <string name="boarding_house_desc">The Award winning Boarding House is now available for smaller groups, inviduals and people staying longer on the island for study, research of culture programs.</string>
+    <string name="boarding_house_title">Boarding House</string>
+    <string name="slave_tabbies_desc">The three surviving tabby slave quarters of North End Plantation’s antebellum period are considered one of the best preserved examples of slave settlement architecture in the southeast.</string>
+    <string name="slave_tabbies_title">Slave Tabbies</string>
+    <string name="title_activity_info_window">InfoWindow</string>
+    <string name="empty"></string>
+    <string name="title_activity_boarding_house">BoardingHouseActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_club_house">ClubHouseActivity</string>
+    <string name="title_activity_middle_place">MiddlePlaceActivity</string>
+    <string name="title_activity_alligators">AlligatorsActivity</string>
+    <string name="title_activity_south_beach">SouthBeachActivity</string>
+    <string name="title_activity_middle_beach">MiddleBeachActivity</string>
+    <string name="title_activity_slave_tabbies">SlaveTabbiesActivity</string>
+    <string name="explore">Tap to explore!</string>
+    <string name="journal_default">It looks like you haven\'t explored any locations yet.\nTap one of the markers on the map to get your journal started!</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_us_info">
+        Explore Ossabaw was developed by Matt Antonelli and CJ Jordan at Armstrong State University in 
+        conjunction with Dr. Joy Reed for the Ossabaw Island Foundation.\n\nWe designed this application in order to provide visitors of Ossabaw Island with an interactive map and journal to enhance their exploration experience.\n\nIf you are interested in learning more about Ossabaw Island, we encourage you to visit their website at www.ossabawisland.org\n\nAll of the images featured in this application are the property of the Ossabaw Island Foundation.
+    </string>
+    
+</resources>
